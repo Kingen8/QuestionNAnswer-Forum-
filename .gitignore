@@ -1,0 +1,4 @@
+.gitignore
+/node_modules
+/sqlstring.sql
+/database.db
