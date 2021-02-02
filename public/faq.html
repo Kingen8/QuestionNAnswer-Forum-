@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="faq_css.css">
+    </head>
+    <body>
+
+      
+        
+        <!-- FAQ SKELETON GOTTEN FROM https://www.solodev.com/blog/web-design/how-to-use-bootstrap-accordions-to-organize-faq-pages.stml -->
+        <section class="accordion-section clearfix mt-3" aria-label="Question Accordions">
+            <div class="container">
+
+            <a href="index.html"> <button type="submit" class="btn btn-danger float-right">Back to Forum</button></a>
+            
+                <h2>Frequently Asked Questions </h2>
+                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                  <div class="panel panel-default">
+                    <div class="panel-heading p-3 mb-3" role="tab" id="heading0">
+                      <h3 class="panel-title">
+                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse0" aria-expanded="true" aria-controls="collapse0">
+                          How do I make a new question?
+                        </a>
+                      </h3>
+                    </div>
+                    <div id="collapse0" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading0">
+                      <div class="panel-body px-3 mb-4">
+                        <p>With our forum you can easily make a question by clicking on the red "Add Question" button. You need to be logged in.</p>
+                        <ul>
+                          <li>Add desired category of your question.</li>
+                          <li>Link your question to you account and time.</li>
+                          <li>Amazing support.</li>
+                          <li>Awesome community.</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="panel panel-default">
+                    <div class="panel-heading p-3 mb-3" role="tab" id="heading1">
+                      <h3 class="panel-title">
+                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                          What can I talk about on your forum?
+                        </a>
+                      </h3>
+                    </div>
+                    <div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading1">
+                      <div class="panel-body px-3 mb-4">
+                        <p>You can talk about whatever you want, as long as its not linked to criminal activities that can harm you or people on the forum.
+                            <ul>
+                                <li> We respect eachother</li>
+                                <li> We help eachother</li>
+                                <li> We discuss with eachother</li>
+                            </ul>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="panel panel-default">
+                    <div class="panel-heading p-3 mb-3" role="tab" id="heading2">
+                      <h3 class="panel-title">
+                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="true" aria-controls="collapse2">
+                          How do I make an account?
+                        </a>
+                      </h3>
+                    </div>
+                    <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
+                      <div class="panel-body px-3 mb-4">
+                        <p>By simply clicking the red "Register" button.</p>
+                        <ul>
+                            <li>Desired username</li>
+                            <li>Secure and hashed password</li>
+                            <li>Decent pricacy and integrity</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="panel panel-default">
+                    <div class="panel-heading p-3 mb-3" role="tab" id="heading3">
+                      <h3 class="panel-title">
+                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="true" aria-controls="collapse3">
+                          If I want to become an admin, how do I do?
+                        </a>
+                      </h3>
+                    </div>
+                    <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
+                      <div class="panel-body px-3 mb-4">
+                        <p>Admins on this forum are people we know from the past. People we can trust. If you want to become an admin you can email us at: 
+                            info@bestforum.com
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            
+            </div>
+          </section>
+
+
+
+    <script src="http://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+    <script>
+        const vm = new Vue({
+            el: "#appe",
+            data: {
+
+
+
+            },
+            methods: {
+
+                doLogin() {
+
+                    const prod = {
+                        username: $('#username').val(),
+                        password: $('#password').val()
+                    }
+                    
+
+                   
+                    $.ajax({ 
+                        url: '/user/login',
+                        type: 'POST',
+                        data: prod,
+                        success: (result) => {
+                            if (result) {
+                                
+                                window.location.href = 'index.html';
+                                console.log(result);
+                            }
+                            
+                           
+
+
+
+                        }
+
+                    })
+
+                }
+
+
+
+
+
+
+
+
+
+            }
+        });
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+
+
+
+
+
+
+    </body>
+
+</html>
