@@ -25,6 +25,9 @@ Languages + packages:
 
 2. HTML5/CSS3
   - Bootstrap
+ 
+3. Agile Methods
+  - Kanban
   
 
 # Preview
