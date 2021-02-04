@@ -17,5 +17,18 @@ Languages + packages:
   - Express-session
 
 2. HTML5/CSS3
+  - Bootstrap
+  
+
+# Preview
+  
+  
+  <img src="public/uploads/landing.png">
+   <img src="public/uploads/commentsection.png">
+    <img src="public/uploads/adminpage.png">
+  
+
+
+
  
 
