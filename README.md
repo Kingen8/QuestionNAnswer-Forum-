@@ -10,9 +10,9 @@ Enjoy
 
 
 # About
-  Our first time working with node.js and vue.js as a school project. The project idea was to make a forum with focus on the backend and create a working API with  endpoints from our database. 
-  Time distribution:
-    30% - Frontend
+  Our first time working with **node.js** and **vue.js** as a school project. The project idea was to make a forum with focus on the backend and create a working API with  endpoints from our database. 
+  Time distribution:\
+    30% - Frontend\
     70% - Backend
 
 
